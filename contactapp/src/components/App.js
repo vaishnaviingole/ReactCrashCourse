@@ -6,11 +6,27 @@ import AddContact from "./AddContact";
 import ContactList from "./ContactList";
 
 function App() {
+  //Rendering a list
+  const contacts=[{
+    id:"1",
+    name:"dipesh",
+    email:"malvia@gmail.com",
+  },
+  {
+    id:"2",
+    name:"shivesh",
+    email:"sh@gmail.com",
+  }
+  //to pass this array to contact list we use props--->props pass data from parent to child
+  
+];
   return (
-   <div>
+    
+   <div className='Ui container'>
     <Header></Header>
     <AddContact/>
-    <ContactList></ContactList>
+    <ContactList contacts={contacts}></ContactList>
+    {/* here contact is a property name and contact inside curly braces is array*/}
    </div>
   );
 }
