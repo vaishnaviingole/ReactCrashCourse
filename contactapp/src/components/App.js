@@ -6,6 +6,7 @@ import AddContact from "./AddContact";
 import ContactList from "./ContactList";
 
 function App() {
+<<<<<<< HEAD
   //Rendering a list
   const contacts=[{
     id:"1",
@@ -27,6 +28,13 @@ function App() {
     <AddContact/>
     <ContactList contacts={contacts}></ContactList>
     {/* here contact is a property name and contact inside curly braces is array*/}
+=======
+  return (
+   <div>
+    <Header/>
+    <AddContact/>
+    <ContactList></ContactList>
+>>>>>>> de997611948e72e83fae0a0822156dc8308779a7
    </div>
   );
 }

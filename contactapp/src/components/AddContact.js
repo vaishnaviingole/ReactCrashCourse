@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 //class component
 //you need to use render method in class component
@@ -21,3 +22,7 @@ class AddContact extends React.Component{
   }
 }
 export default AddContact;
+=======
+// import React from 'react';
+// class Add
+>>>>>>> de997611948e72e83fae0a0822156dc8308779a7
