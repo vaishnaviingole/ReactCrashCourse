@@ -8,7 +8,7 @@ import ContactList from "./ContactList";
 function App() {
   return (
    <div>
-    <Header></Header>
+    <Header/>
     <AddContact/>
     <ContactList></ContactList>
    </div>
